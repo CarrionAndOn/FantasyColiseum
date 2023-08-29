@@ -23,13 +23,9 @@ namespace FantasyColiseum
             [HarmonyPostfix]
             public static void Postfix(ArenaMenuController __instance)
             {
-                MelonLogger.Msg($"{__instance} Active");
                 __instance.maxEnemyCount = 500;
-                MelonLogger.Msg($"{__instance} max enemy count is {__instance.maxEnemyCount}");
                 __instance.maxConcurrent = 500;
-                MelonLogger.Msg($"{__instance} max concurrent is {__instance.maxConcurrent}");
                 __instance.maxFriendlyCount = 500;
-                MelonLogger.Msg($"{__instance} max friendly count is {__instance.maxFriendlyCount}");
             }
         }
     }
