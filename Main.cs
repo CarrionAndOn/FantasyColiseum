@@ -1,5 +1,5 @@
 ﻿using MelonLoader;
-using SLZ.Bonelab;
+using Il2CppSLZ.Bonelab;
 using HarmonyLib;
 
 namespace FantasyColiseum
